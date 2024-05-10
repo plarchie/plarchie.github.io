@@ -1,0 +1,2394 @@
+/*===============================================
+Template Name: Lead  Generation
+Description: Description
+Version: 1.0.0
+Text Domain: Lead  Generation
+Tags:
+================================================*/
+
+/*TABLE OF Lead  Generation*/
+/*=======================
+01. Lead  Generation Header   Section Css
+02. Lead  Generation Slider   Section Css
+03. Lead  Generation Feature   Section Css
+04. Lead  Generation About   Section Css
+06. Lead  Generation Testimonial   Section Css
+07. Lead  Generation Counter   Section Css
+08. Lead  Generation Footer   Section Css
+09. Lead  Generation Team   Section Css
+10. Lead  Generation Faq   Section Css
+11. Lead  Generation Contact   Section Css
+12. Lead  Generation Service   Section Css
+13. Lead  Generation Service Details   Section Css
+14. Lead  Generation Blog   Section Css
+15. Lead  Generation Blog Two   Section Css
+16. Lead  Generation Blog Details   Section Css
+17. Lead  Generation Loader Css
+=======================*/
+
+
+
+/*=====================================
+<--  Dreamhub Lead  Generation Header Section Css -->
+=======================================*/
+.header-section {
+    background: #fff;
+    height: 90px;
+}
+.logo {
+    text-align: left;
+    font-size: xx-large;
+    padding: 20px;
+}
+/*sticky*/
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #2488f2!important;
+    transition: .5s;
+    z-index: 44;
+    animation: 500ms running fadeInUp;
+    animation-name: slideInDown;
+    position: absolute !important;
+}
+/*stiky header logo*/
+
+.header-section a.active {
+    display: block !important;
+}
+.sticky a.active {
+    display: none !important;
+}
+
+a.active-sticky {
+    display: none !important;
+}
+.sticky a.active-sticky {
+    display: block !important;
+}
+
+
+
+/*stiky header button*/
+.sticky .header-menu ul li a {
+    color: #fff;
+}
+.sticky .header-menu-btn a{
+    color: #fff;
+    background: #1781f1;
+    border: 1px solid #fff;
+}
+
+
+/*header-menu*/
+.header-menu {
+    text-align: right;
+}
+.header-menu ul {
+    display: inline-block;
+}
+.header-menu ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin: 0 0 0 35px;
+}
+
+.header-menu ul li a {
+    display: inline-block;
+    padding: 34px 0;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.header-menu ul li a:hover {
+    color: #2488f2;
+}
+
+.sticky .header-menu ul li a:hover{
+   color: #fff; 
+}
+
+.header-menu-btn a:hover {
+    background: #fff;
+    border: 1px solid #3a79cf;
+    color: #3a79cf;
+}
+
+/*header menu  button*/
+.header-menu-btn {
+    display: inline-block;
+    margin-left: 40px;
+}
+.header-menu-btn a {
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #3a79cf;
+    padding: 12px 28px;
+    border: 1px solid transparent;
+}
+
+/*sub-menu*/
+.header-menu ul li .sub-menu {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    background: #fff;
+    width: 250px;
+    border-radius: 3px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 20px;
+    border-top: 2px solid #3a79cf;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 0 23px rgb(0 0 0 / 10%);
+    border-bottom: 2px solid #3a79cf;
+    z-index: 2;
+}
+.header-menu ul li:hover .sub-menu{
+    top: 78px;
+    visibility: visible;
+    opacity: 1;
+}
+.header-menu ul li .sub-menu li {
+    display: block;
+    margin-left: 0;
+}
+.header-menu ul li .sub-menu li a {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 0;
+    font-size: 16px;
+    color: #39374d;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: left;
+}
+.header-menu ul li .sub-menu li a:hover{
+    background: #3a79cf;
+    color: #fff;
+}
+
+
+
+
+/*================================
+ <-- Lead  Generation Hero Section  Css-->
+==================================*/
+.slider-section {
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 850px;
+}
+
+.slider-section.two {
+    background: url(../image/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 866px;
+}
+.slider-section.two .slider-description p {
+    width: 46%;
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.slider-main-title h1 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.slider-description p {
+    width: 46%;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.slider-button {
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.slider-button a {
+    display: inline-block;
+    background: #fff;
+    padding: 12px 39px;
+    border: 1px solid #fff;
+    transition: .5s;
+    font-size: 16px;
+    color: #124e88;
+    font-weight: 700;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+.slider-button a:hover{
+    color: #fff;
+}
+
+.slider-button a:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: #3a79cf;
+    height: 100%;
+    width: 0%;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-button a:hover:before {
+    width: 100%;
+    left: 0;
+    opacity: 1;
+}
+
+.slider-video-button {
+    display: inline-block;
+}
+
+.slider-video-button a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    color: #2488f2;
+    margin-left: 20px;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+} 
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0)
+    }
+}
+
+/*================================
+ <-- Dreamhub Lead  Generation  Section Title  Css-->
+==================================*/
+.section-title {
+    margin-bottom: 50px;
+}
+.section-main-title {
+    margin-bottom: 22px;
+}
+.section-main-title h1 {
+    font-size: 36px;
+    line-height: 50px;
+}
+.section-description p {
+    width: 43%;
+    margin: auto;
+}
+
+/*================================
+ <-- Dreamhub Lead  Generation  Feature Section  Css-->
+==================================*/
+.feature-section {
+    /* padding: 110px 0 87px; */
+} 
+
+.feature-single-box {
+    background: #fafcff;
+    padding: 40px 30px 15px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.feature-single-box:before {
+    transition: .5s;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    background: #2488f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-single-box:hover:before {
+    transform: scale(1);
+} 
+
+.feature-icon {
+    margin-bottom: 25px;
+}
+
+.feature-icon img {
+    filter: brightness(1)invert(0);
+    transition: .5s;
+}
+
+.feature-title h3 {
+    font-size: 18px;
+    color: #282828;
+    font-weight: 700;
+    margin-bottom: 11px;
+    transition: .5s;
+}
+
+.feature-description p{
+    transition: .5s;
+}
+
+/*all hover*/
+.feature-single-box:hover .feature-title h3 {
+    color: #fff;
+}
+
+.feature-single-box:hover .feature-description p {
+    color: #fff;
+}
+
+.feature-single-box:hover .feature-icon img {
+    filter: brightness(0)invert(1);
+}
+
+
+
+
+/*================================
+ <-- Dreamhub Lead  Generation  About Section  Css-->
+==================================*/
+.about-section {
+    padding: 120px 0 120px;
+    background: #fafcff;
+}
+.about-section.style-two {
+    background: #fff;
+}
+/*about section style two*/
+.about-section.style-two .section-title {
+    margin-bottom: 23px;
+}
+.about-section.style-two .about-left {
+    margin-left: 4px;
+}
+.about-section.style-two .section-main-title h1 {
+    line-height: 45px;
+}
+.about-section.style-two .section-main-title {
+    margin-bottom: 14px;
+}
+.about-section.style-two .section-description p {
+    width: 86%;
+}
+.about-section.style-two .about-item-list ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #282828;
+    position: relative;
+    margin-left: 25px;
+}
+.about-section.style-two .about-item-list ul li:before {
+    position: absolute;
+    content: "";
+    left: -23px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #3c77c7;
+}
+/* End about section style two*/
+
+.about-section .section-title {
+    margin-bottom: 28px;
+}
+
+.about-section .section-description p {
+    width: 75%;
+    margin: 0;
+}
+
+.about-left {
+    position: relative;
+    margin-left: 50px;
+}
+
+.about-single-box {
+    margin-bottom: 5px;
+    padding: 0 99px 0 0;
+}
+
+.about-icon {
+    float: left;
+    margin-right: 25px;
+}
+
+.about-content {
+    overflow: hidden;
+    margin: 0 195px 0 0;
+} 
+
+.about-title h3 {
+    font-size: 18px;
+    color: #232323;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.about-description p {
+    font-size: 12px;
+    color: #888888;
+}
+
+
+/*================================
+ <-- Dreamhub Lead  Generation  About Section  Css-->
+==================================*/
+.testimonial-section {
+    padding: 110px 0 118px;
+}
+
+.testimonial-section .section-description p {
+    width: 50%;
+    margin: auto;
+}
+
+.testimonial-single-box {
+    position: relative;
+    background: #fafcff;
+    padding: 40px 74px 31px 29px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.testimonial-single-box:before {
+    transition: .5s;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    background: #2488f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.testimonial-single-box:hover:before {
+    transform: scale(1);
+} 
+
+.testimonial-thumb {
+    display: inline-block;
+}
+
+.testimonial-name-title {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.testimonial-name-title h3 {
+    font-size: 16px;
+    transition: .5s;
+}
+
+.testimonial-name-title p {
+    font-size: 12px;
+    transition: .5s;
+}
+
+.testi-description {
+    margin-top: 28px;
+    transition: .5s;
+}
+
+.testimonial-star-icon ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #1781f1;
+    margin-top: 8px;
+    transition: .5s;
+}
+
+/*all hover*/
+.testimonial-single-box:hover .testimonial-name-title h3 {
+    color: #fff;
+}
+
+.testimonial-single-box:hover .testi-description {
+    color: #fff;
+}
+
+.testimonial-single-box:hover .testimonial-name-title p {
+    color: #fff;
+ }
+
+.testimonial-single-box:hover .testimonial-star-icon ul li {
+   color: #fff;
+}
+
+
+/*================================
+ <--Start  Dreamhub Lead  Generation   Counter Sention   Css-->
+=================================*/
+.counter-section {
+    padding: 120px 0 110px;
+    background: #fafcff;
+}
+.counter-section.style-two {
+    background: #fff;
+}
+.counter-songle-box {
+    text-align: center;
+}
+
+.counter-number-content h1 {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #282828;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.counter-title span {
+    font-size: 18px;
+}
+
+/*================================
+ <--Start  Dreamhub Lead  Generation   Footer Sention   Css-->
+=================================*/
+.footer-section {
+    background: #1e538b;
+    padding: 130px 0 15px;
+}
+.fotter-logo {
+    position: relative;
+    bottom: 11px;
+}
+.footer-widget-item.text-right {
+    text-align: right;
+}
+.footer-widget-title h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.footer-widget-description p {
+    color: #ffff;
+    margin-top: 20px;
+}
+.footer-widget-emil p {
+    color: #fff;
+    margin: 0;
+}
+
+.footer-bottom {
+    border-top: 1px solid #fff3;
+    margin-top: 35px;
+    padding-top: 33px;
+}
+.copy-right p {
+    text-align: center;
+    color: #fff;
+}
+
+
+/*
+<!-- ============================================================== -->
+<!--   Dreamhub Lead  Generation breadcumb-Section -->
+<!-- ============================================================== -->*/
+.breadcumb-area {
+    background: url(../image/bridcumb.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 390px;
+    position: relative;
+}
+.breadcumb-area:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(23,129,241,0.7);
+}
+.breacumb-content {
+    position: relative;
+}
+.breadcumb-title h1 {
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.breadcumb-content-text a {
+    transition: .5s;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.breadcumb-content-text i {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px 0;
+}
+
+.breadcumb-content-text span {
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/*================================
+ <--Start Lead  Generation  Service Section Css-->
+=================================*/
+
+.service-section {
+    padding: 110px 0 120px;
+}
+.service-section  .section-description p {
+    width: 47%;
+}
+.servoce-single-box {
+    text-align: center;
+    background: #fafcff;
+    padding: 40px 21px 15px;
+    position: relative;
+    border-radius: 5px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.servoce-single-box:before {
+    transition: .5s;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    background: #2488f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.servoce-single-box:hover:before {
+    transform: scale(1);
+}
+.service-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #3a79cf;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.service-icon img {
+    filter: brightness(0)invert(1);
+    transition: .5s;
+}
+.service-title h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    transition: .5s;
+}
+
+.service-description p{
+    transition: .5s;
+}
+
+/*all hover*/
+.servoce-single-box:hover .service-icon img {
+    filter: brightness(1)invert(0);
+}
+
+.servoce-single-box:hover .service-description p {
+   color: #fff;
+}
+
+
+.servoce-single-box:hover .service-title h3{
+    color: #fff;
+} 
+
+
+
+.servoce-single-box:hover .service-icon {
+    background: #fff;
+} 
+/*================================
+ <--Start Lead  Generation  Team Section   Css-->
+=================================*/
+.team-section {
+    padding: 110px 0 90px;
+    background: #fafcff;
+}
+
+.team-section .section-description p {
+    width: 45%;
+}
+
+.team-thumb {
+    position: relative;
+} 
+
+.team-thumb img {
+    width: 100%;
+} 
+
+.team-social-icon {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-social-icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.team-social-icon ul li a {
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0px rgba(0,0,0,0.35));
+    background-color: #ffffff;
+    display: inline-block;
+    line-height: 33px;
+    font-size: 13px;
+    margin-right: 5px;
+    position: relative;
+    color: #1781f1;
+    z-index: 1;
+    transition: .5s;
+}
+
+.team-social-icon ul li a:hover{
+    color: #fff;
+}
+
+.team-social-icon ul li a::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background: #1781f1;
+    border-radius: 15px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.team-social-icon ul li a:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.team-content {
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+.team-name-title h3 {
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+.team-name-title span {
+    font-size: 14px;
+}
+
+/*all hover*/
+.single-team-box:hover .team-social-icon {
+    bottom: -16px;
+    opacity: 1;
+}
+
+/*================================
+ <--Start Lead  Generation  Blog Sention   Css-->
+=================================*/
+
+.blog-section {
+    padding: 110px 120px;
+}
+
+.blog-section.tow {
+    padding: 120px 0 90px;
+}
+
+.blog-section.style-two {
+    padding: 120px 0 90px;
+}
+
+.blog-section.tow .blog-single-box {
+    margin-bottom: 30px;
+}
+
+.blog-section.style-two .blog-single-box {
+    margin-bottom: 30px;
+}
+
+.blog-section .section-description p {
+    width: 45%;
+}
+.blog-single-box{
+    transition: .5s;
+}
+
+.blog-single-box:hover {
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+
+.blog-thumb {
+    overflow: hidden;
+}
+
+.blog-thumb img {
+    width: 100%;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.blog-single-box:hover .blog-thumb img {
+    transform: scale(1.2);
+}
+
+
+.blog-content {
+    text-align: center;
+    background: #fafcff;
+    padding: 31px 12px 27px;
+}
+
+.blog-title h3 a {
+    font-size: 20px;
+    color: #232323;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.blog-title h3 a:hover {
+    color: #1781f1;
+}
+
+.blog-btn a {
+    font-size: 14px;
+    color: #888888;
+    font-weight: 400;
+    margin-top: 6px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.blog-single-box:hover .blog-btn a{
+    color: #1781f1;
+}
+
+/*================================
+ <--Start Lead  Generation  Contact Area   Css-->
+=================================*/
+.contact-section {
+    padding: 120px 0 120px;
+}
+.contact-section .section-title {
+    margin-bottom: 32px;
+}
+.contact-section .section-main-title {
+    margin-bottom: 12px;
+}
+.contact-section .section-description p {
+    width: 89%;
+    margin: 0;
+}
+.contact-info {
+    background: #f4f8ff;
+    padding: 24px 19px 24px;
+    border-left: 5px solid #3a79cf;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-info:before {
+    z-index: -1;
+    background: #3a79cf;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 0%;
+    transition: .5s;
+    border-radius: 0 5px 0 0;
+}
+
+.contact-info:hover:before {
+    width: 100%;
+}
+.contact-icon {
+    display: inline-block;
+    position: relative;
+    top: -13px;
+}
+.contact-icon ul li {
+    list-style: none;
+}
+.contact-icon ul li i {
+    font-size: 16px;
+    transition-duration: .5s;
+}
+.conatct-text {
+    margin-left: 15px;
+    display: inline-block;
+}
+.conatct-text p {
+    margin: 0;
+    transition: .5s;
+}
+
+/*all hover*/
+.contact-info:hover .contact-icon ul li i{
+    color: #fff;
+}
+.contact-info:hover .conatct-text p{
+    color: #fff;
+}
+
+
+/*canatc  bg*/
+.row.contact_bg {
+    background: #f4f8ff;
+    padding: 50px 20px 40px;
+    position: relative;
+    margin-left: 50px;
+}
+/*contact box*/
+.contact-section .form_box input {
+    border: 1px solid rgba(100,100,100,0.1);
+    width: 100%;
+    height: 60px;
+    padding: 0 18px;
+    margin-bottom: 20px;
+    outline: 0;
+    border-radius: 5px;
+    background: #f4f8ff;
+}
+
+.contact-section .form_box input::placeholder{
+    color: #888888;
+}
+
+.contact-section .form_box textarea {
+    width: 100%;
+    height: 120px;
+    padding: 14px 18px;
+    border: 1px solid rgba(100,100,100,0.1);
+    outline: 0;
+    border-radius: 5px;
+    background: #f4f8ff;
+}
+.contact-section .form_box textarea::placeholder{
+    color: #888888;
+}
+
+.contact-section .contact-form-button button {
+    padding: 12px 52px;
+    font-size: 16px;
+    color: #ffff;
+    border: 1px solid transparent;
+    outline: 0;
+    background: #124e88;
+    border-radius: 30px;
+    position: relative;
+    font-weight: 700;
+    margin-top: 26px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.contact-form-button button:hover{
+    color: #124e88;
+}
+.contact-form-button button:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background: #fff;
+    border: 1px solid #124e88;
+    transition: .5s;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.contact-form-button button:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+
+
+/*================================
+ <--Start Lead  Generation  Google Section   Css-->
+=================================*/
+.mapouter.fixed-height {
+    height: 600px;
+}
+
+.gmap_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.mapouter iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*================================
+ <--Start Lead  Generation  Service  Details Area   Css-->
+=================================*/
+.service-detials-area {
+    padding: 120px 0 90px;
+}
+/*widget search*/
+
+.widget_search {
+    padding: 30px 30px 30px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background: rgba(36,136,242,0.8);
+    box-shadow: 0px 0px 70px rgb(0 0 0 / 5%);
+}
+
+.service-detials-area .widget_search {
+    background: rgba(36,136,242,0.8);
+    box-shadow: none;
+}
+
+.widget_search form {
+    position: relative;
+}
+
+.widget_search input {
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    color: #232323;
+    border: 0;
+    outline: 0;
+    background: #fff;
+}
+
+.widget_search input::placeholder{
+    color: #232323;
+}
+
+button.icons {
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    background: #2488f2;
+    border-radius: 0 4px 4px 0;
+}
+
+/*widget categories box*/
+
+.service-detials-area .widget-categories-box {
+    background: rgba(36,136,242,0.8);
+    padding: 42px 40px 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: none;
+}
+
+.widget-categories-box {
+    background: rgba(36,136,242,0.7);
+    padding: 42px 40px 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 70px rgb(0 0 0 / 5%);
+}
+
+/*title*/
+
+.categories-title h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    border-bottom: 2px solid rgb(255 255 255 / 44%);
+    padding: 0px 0 15px;
+    margin: 0 0 30px;
+    position: relative;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.categories-title h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 24px;
+    width: 3px;
+    background: #2488f2;
+}
+/*categories menu*/
+
+.widget-categories-menu ul {
+    display: block;
+}
+
+.widget-categories-menu ul li {
+    display: block;
+    list-style: none;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 16px 20px 16px;
+    border-radius: 4px;
+    transition: .5s;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.widget-categories-menu ul li:hover {
+    border: 2px solid #2488f2;
+}
+
+.widget-categories-menu ul li:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: #2488f2;
+    transition: .5s;
+    z-index: -1;
+}
+
+.widget-categories-menu ul li:hover:before{
+    width: 100%;
+}
+
+.widget-categories-menu ul li a {
+    display: block;
+    color: #2488f2;
+    transition: .5s;
+}
+.widget-categories-menu ul li a span {
+    display: inline-block;
+    float: right;
+    background: #2488f2;
+    height: 22px;
+    width: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 6px;
+    color: #fff;
+    line-height: 22px;
+    transition: .5s;
+}
+
+.widget-categories-menu ul li:hover a span {
+    background: #fff;
+    color: #0E1317;
+}
+
+.widget-categories-menu ul li:hover a {
+    color: #fff;
+}
+
+.pdf-button a {
+    display: block;
+    background: #2488f2;
+    padding: 15px 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pdf-button a i {
+    float: right;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+/* Sidber Recent Post */
+
+.sidber-widget-recent-post {
+    margin-bottom: 20px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.sidber-widget-recent-post .recent-widget-content {
+    padding-top: 20px;
+}
+.recent-widget-content a {
+    color: #2488f2 !important;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    line-height: 26px;
+    transition: .5s;
+    margin-bottom: 7px;
+}
+.recent-widget-thumb {
+    float: left;
+    margin-right: 25px;
+}
+
+.sidber-widget-recent-post .recent-widget-content a {
+    color: #2488f2;
+    font-size: 18px;
+}
+.sidber-widget-recent-post .recent-widget-content span {
+    color: #2488f2;
+}
+.sidber-widget-recent-post .recent-widget-content span i {
+    margin-right: 7px;
+    color: #E9031D;
+}
+
+/* Sidber Achivement CSS */
+
+.widget-achivement ul li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+.widget-achivement ul li a i {
+    font-size: 17px;
+    margin-right: 3px;
+}
+
+.widget-achivement ul li a {
+    font-weight: 600;
+    transition: .5s;
+    color: #fff;
+}
+
+.widget-achivement ul li a span {
+    float: right;
+}
+
+.widget-achivement ul li a:hover{
+    color: #2488f2;
+}
+
+/* Sidber Widget Gallery CSS */
+
+.widget-gallery {
+    overflow: hidden;
+}
+
+.widget-gallery-thumb {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sidber Widget Tags CSS */
+
+.widget-tags a {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 3px 20px;
+    margin: 4px 3px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+}
+
+.widget-tags a:before {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: 0px;
+    height: 102%;
+    width: 0%;
+    background: #074783;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.widget-tags a:hover{
+    color: #fff;
+    border-color: #2488f2;
+}
+
+.widget-tags a:hover:before{
+    width: 102%;
+}
+
+/* Service Details Content CSS */
+
+.service-details-main-title {
+    padding: 20px 0 18px;
+}
+
+.service-details-main-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.service-details-video-thumb {
+    position: relative;
+    padding-top: 20px;
+}
+.video-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    padding-top: 8px;
+}
+.video-icon a i {
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #074883;
+    text-align: center;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+} 
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0)
+    }
+}
+
+
+
+.service-details-overview-title {
+    padding: 22px 0 15px;
+}
+
+.service-details-overview-title h2 {
+    font-size: 30px;
+}
+
+.service-details-overview-list ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.service-details-overview-list ul li::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 9px;
+    height: 12px;
+    width: 12px;
+    background: #2488f2;
+    border-radius: 50%;
+}
+
+.service-details-choose-us {
+    padding-bottom: 10px;
+}
+
+.service-details-choose-us-title {
+    padding: 5px 0 15px;
+}
+
+.service-details-choose-us-title h2 {
+    font-size: 30px;
+}
+
+.service-details-box {
+    background: rgba(36,136,242,0.8);
+    padding: 30px 30px 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.service-details-number {
+    position: absolute;
+    right: 60px;
+}
+
+.service-details-number h2 {
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: rgba(255,255,255,0.2);
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Rubik";
+}
+
+.service-details-icon i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.service-details-content h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.service-details-box .service-details-content p {
+    color: #fff;
+}
+
+.service-details-thumb img {
+    width: 100%;
+}
+
+.service-details-video-thumb-inner img {
+    width: 100%;
+}
+
+
+
+
+
+/*================================
+ <-- Lead  Generation   Blgo Details  Area Css-->
+==================================*/
+.blog-detials-area {
+    padding: 120px 0 120px;
+}
+
+.blog-grid-area {
+    padding: 120px 0 90px;
+}
+
+.blog-details-main {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+}
+.blog-details-meta {
+    background: #2488f2;
+    padding: 16px 30px;
+}
+
+.blog-details-meta span {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.blog-details-meta span i {
+    color: #fff;
+    padding-right: 5px;
+}
+
+.blog-details-content {
+    padding: 20px 0 18px;
+}
+
+.blog-details-content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.blog-details-thumb img {
+    width: 100%;
+}
+
+.blog-details-des {
+    padding: 30px 0 10px;
+}
+
+.blog-details-blockquote {
+    background: rgba(36,136,242,0.8);
+    padding: 40px 38px 26px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.blog-details-blockquote blockquote {
+    font-size: 18px;
+    color: #fff;
+}
+.blog-details-video-thumb {
+    margin-top: 30px;
+    position: relative;
+}
+
+.blog-details-video-thumb img {
+    width: 100%;
+}
+
+.blog-details-video-thumb-inner img {
+    width: 100%;
+}
+
+.blog-details-content h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.blog-details-content-list p i {
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 100%;
+    margin-right: 15px;
+    color: #2488f2;
+}
+
+.blog-detials-area .blog-content {
+    padding: 20px 30px 38px;
+}
+
+.blog-details-button a {
+    display: inline-block;
+    border: 2px solid #2488f2;
+    padding: 3px 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.blog-details-button a:before {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: -1px;
+    height: 104%;
+    width: 104%;
+    background: #2488f2;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.blog-details-button a.active {
+    background: transparent;
+    transition: .5s;
+    margin-left: 10px;
+    color: #2488f2;
+}
+.blog-details-button a.active:before{
+    background: transparent;
+}
+
+.blog-details-button a.active:hover:before{
+    background: #2488f2;
+}
+
+.blog-details-button a.active:hover{
+    color: #fff;
+    border-color: #2488f2;
+}
+
+.blog-details-social {
+    text-align: right;
+}
+
+.blog-details-social a {
+    display: inline-block;
+    border: 2px solid #2488f2;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 14px;
+    transition: .5s;
+    margin-left: 5px;
+    color: #074783;
+}
+
+.blog-details-social a:hover{
+    background: #2488f2;
+    border-color: #2488f2;
+    color: #fff;
+}
+
+/* Blog Details Author */
+
+.blog-details-author {
+    border-top: 2px solid rgba(255,255,255,0.2);
+    padding-top: 40px;
+    margin-top: 32px;
+}
+
+.blog-details-author-inner {
+    background: #2488f2;
+    padding: 30px 30px 70px;
+}
+
+.blog-details-author-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-author-content h2 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #ffff;
+}
+.blog-details-author-content p {
+    color: #ffffffbd;
+}
+
+/* Comment CSS */
+
+.blog-details-comment {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.blog-details-comment-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-comment-content {
+    overflow: hidden;
+}
+
+.blog-details-comment-content h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.blog-details-comment-content span {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.blog-details-comment-reply {
+    position: absolute;
+    right: 25px;
+}
+
+.blog-details-comment-reply a {
+    background: #2488f2;
+    padding: 3px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.blog-details-comment.reply {
+    margin-left: 70px;
+    padding-top: 35px;
+    border-top: 2px solid rgba(255,255,255,0.2);
+}
+
+/* Blog Details Contact */
+
+.blog-details-contact {
+    border-top: 2px solid rgba(255,255,255,0.2);
+    margin: 12px 10px 10px;
+    padding-top: 8px;
+}
+/*input-box*/
+.input-box input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #0202021a;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    outline: 0;
+    border-radius: 3px;
+}
+
+.input-box textarea {
+    width: 100%;
+    height: 207px;
+    outline: 0;
+    border: 1px solid  #0202021a;
+    padding: 22px 20px 0;
+    border-radius: 3px;
+}
+
+/*input button*/
+.input-button {
+    margin-top: 27px;
+}
+.input-button button {
+    display: inline-block;
+    padding: 13px 39px;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: #2488f2;
+    border: 1px solid #2488f2;
+    transition: .5s;
+}
+.input-button button:hover {
+    border: 1px solid #2488f2;
+    color: #2488f2;
+    background: none;
+}
+.input-button button i {
+    margin-left: 10px;
+}
+
+/*================================
+ <--  Lead  Generation  Faq Section Css-->
+==================================*/
+.faq-section {
+    background: url(../image/faq-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 120px;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.faq-section:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36,136,242,0.5);
+}
+.faq-section .section-title {
+    margin-bottom: 37px;
+}
+.faq-section .section-main-title h1 {
+    color: #fff;
+}
+
+/*accordion*/
+.accordion li {
+    list-style: none;
+    padding: 2px 0px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.accordion li:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    right: 20px;
+    top: 16px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    border: 1px solid rgba(36,136,242,0.7);
+}
+
+.active .accordion li:before {
+    background-color: rgba(255, 255, 255, 0.10196078431372549) !important;
+}
+
+.accordion li a {
+    position: relative;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.050980392156862744);
+    border: 1px solid #43baff;
+    padding: 14px 20px 14px 28px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.accordion li p {
+    display: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 25px 0 10px 30px;
+    margin: 0;
+}
+
+.accordion a:before {
+    width: 2px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    right: 32px;
+    content: " ";
+    top: 22px;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.accordion a:after {
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    right: 28px;
+    content: " ";
+    top: 26px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.faq-section  a.active {
+    color: #fff !important;
+    border: 1px solid #2488f2!important;
+    background: #2488f2!important;
+}
+.accordion li a span {
+    position: relative;
+    z-index: 1;
+}
+
+
+/*contact form bg*/
+
+.contract-form-bg {
+    padding: 15px 35px 40px;
+    background: #fff;
+    border-radius: 3px;
+    width: 430px;
+    position: relative;
+    z-index: 1;
+    left: 100px;
+}
+
+.contract-form-bg:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 147px;
+    width: 100%;
+    background: #2488f2;
+    z-index: -1;
+    border-radius: 3px 3px 0 0;
+}
+
+.contract-form-bg:after {
+    position: absolute;
+    content: "";
+    top: 137px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../image/faq-contact-shape.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact-form-title {
+    padding: 0 0 100px;
+}
+.contact-form-title h4 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.contact-form-title p {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0 0;
+}
+
+.form_box input {
+    width: 100%;
+    height: 50px;
+    padding-left: 25px;
+    background: #fafcff;
+    border-radius: 30px;
+    color: #232323;
+    border: 1px solid rgba(36,136,242,0.7);
+    transition: .5s;
+    margin-bottom: 20px;
+    outline: 0;
+}
+
+.form_box textarea {
+    width: 100%;
+    background: #fafcff;
+    padding-left: 25px;
+    padding-top: 20px;
+    height: 135px;
+    border: 1px solid rgba(36,136,242,0.7);
+    border-radius: 30px;
+    color: #232323;
+    transition: .5s;
+    outline: 0;
+}
+
+.quote_button {
+    text-align: center;
+    margin-top: 20px;
+}
+.quote_button button.btn {
+    color: #fff;
+    background: #2488f2;
+    padding: 13px 102px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.quote_button button.btn:hover{
+    color: #1781f1;
+}
+.quote_button button.btn:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: #fff;
+    height: 100%;
+    width: 0%;
+    border: 1px solid #2488f2;
+    z-index: -1;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.quote_button button.btn:hover:before {
+    left: 0;
+    width: 100%;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Hendre Scrollup Button Section -->
+<!-- ============================================================== -->*/
+
+.scroll-area{
+    position: relative;
+    z-index: 999;
+   }
+  
+  .scroll-area .go-top {
+      position: fixed;
+      cursor: pointer;
+      top: 0;
+      right: 30px;
+      color: #ffffff;
+      background-image: -moz-linear-gradient(0deg, #1781f1 0%, #573FEB 100%);
+      background-image: -webkit-linear-gradient(0deg, #1781f1 0%, #573FEB 100%);
+      z-index: 9999;
+      width: 45px;
+      text-align: center;
+      height: 45px;
+      line-height: 42px;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: all 0.9s ease-out 0s;
+      -moz-transition: all 0.9s ease-out 0s;
+      border-radius: 10px; 
+  }
+  
+  .scroll-area .go-top i {
+        position: absolute;
+        top: 50%;
+        left: -4px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 15px;
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all 0.5s ease-out 0s;
+        -moz-transition: all 0.5s ease-out 0s;
+    }
+  
+  .scroll-area .go-top i:last-child {
+      opacity: 0;
+      visibility: hidden;
+      top: 60%; 
+  }
+  
+  .scroll-area .go-top::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-image: linear-gradient(to right, #1781f1 0%, #232353 100%);
+      background-image: -ms-linear-gradient(0deg, #232353 0%, #1781f1 100%);
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: all 0.5s ease-out 0s;
+      -moz-transition: all 0.5s ease-out 0s;
+      border-radius: 100%;
+  }
+  
+  .scroll-area .go-top:focus, .scroll-area .go-top:hover {
+        color: #fff; 
+    }
+  
+  .scroll-area .go-top:focus::before, .scroll-area .go-top:hover::before {
+          opacity: 1;
+          visibility: visible; 
+  }
+  
+  .scroll-area .go-top:focus i:first-child, .scroll-area .go-top:hover i:first-child {
+          opacity: 0;
+          top: 0;
+          visibility: hidden;
+   }
+  
+  .scroll-area .go-top:focus i:last-child, .scroll-area .go-top:hover i:last-child {
+          opacity: 1;
+          visibility: visible;
+          top: 50%; 
+  }
+  
+  .scroll-area .go-top.active {
+      top: 95%;
+      -webkit-transform: translateY(-98%);
+      -moz-transform: translateY(-98%);
+      opacity: 1;
+      visibility: visible;
+      border-radius: 0;
+      right: 30px;
+      border-radius:100%;
+  }
+  
+  .top-wrap {
+    position: relative; 
+  }
+  
+  .top-wrap .go-top-button {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      top: 3px;
+      z-index: 1;
+      background: #1781f1;
+  }
+  
+   .top-wrap .go-top-button i {
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 4px;
+        color: #fff;
+   }
+  
+  .top-wrap .go-top-button::after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: 3px;
+      width: 45px;
+      height: 45px;
+      -webkit-animation: ripple 1.6s ease-out infinite;
+      -moz-animation: ripple 1.6s ease-out infinite;
+      opacity: 0;
+      background-image: -moz-linear-gradient(0deg, #1781f1 0%, #3173b1 100%);
+      background-image: -webkit-linear-gradient(0deg, #1781f1 0%, #7db1e2 100%);
+      border-radius: 100%;
+  }
+  
+  .top-wrap .go-top-button:hover {
+        background-color: #222;
+        color: #fff; 
+    }
+  @keyframes ripple {
+    0%, 35% {
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+      transform: scale(0);
+      opacity: 1; }
+    50% {
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+      transform: scale(1.5);
+      opacity: 0.8; }
+    100% {
+      opacity: 0;
+      -webkit-transform: scale(2);
+      -moz-transform: scale(2);
+      -ms-transform: scale(2);
+      -o-transform: scale(2);
+      transform: scale(2); } 
+    
+    }
+  
+/*===========================
+<-- Lead  Generation  Loader Css -->
+=============================*/
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 999;
+}
+
+.loader {
+    position: relative;
+    display: block;
+    z-index: 201;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    transition: all 1s 1s ease;
+    border: 3px solid transparent;
+    border-top-color: #1781f1;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #074783;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loader:after {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: #fff;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    -o-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+
+/*/ Here comes the Magic /*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+}
+
