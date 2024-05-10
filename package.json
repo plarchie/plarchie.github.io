@@ -1,0 +1,19 @@
+{
+    "name": "theloosecut",
+    "version": "1.0.0",
+    "description": "https://samraha.github.io/TheLooseCut/",
+    "main": "main.js",
+    "scripts": {
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SamRaha/TheLooseCut.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/SamRaha/TheLooseCut#readme",
+    "bugs": {
+        "url": "https://github.com/SamRaha/TheLooseCut/issues"
+    }
+}
